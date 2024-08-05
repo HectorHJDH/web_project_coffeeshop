@@ -6,8 +6,7 @@
   line-height: 20px;
 }
 
-.noto-serif {
-  font-family: 'Noto Serif', serif, 'Times New Roman';
-  font-style: italic;
+.noto-serif-regular-400 {
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: 400;
 }
