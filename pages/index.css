@@ -6,9 +6,124 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0 auto;
+  background-color: #FFFFFF;
 }
 
 .noto-serif-regular-400 {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: 400;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 80px 0 30px;
+}
+
+.nav__logo {
+  position: relative;
+  height: 39px;
+  width: 105px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.header {
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__background {
+  position: absolute;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  z-index: -1;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  margin: 183px 0 0px 80px;
+  max-width: 709px;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2F80ED;
+}
+
+.header__span-accent {
+  margin: 0px 0 28px 80px;
+  max-width: 709px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: 1px;
+}
+
+.header__description {
+  margin: 20px 0 0 80px;
+  max-width: 683px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  position: relative;
+  right: 5px;
+  width: 646px;
+  height: 568px;
+}
+
+.header__footer {
+  margin: 0 80px 40px;
+  position: relative;
+}
+
+.header__paragraph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  margin: 0;
+}
+
+.header__address {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  position: absolute;
+  right: 0;
+  bottom: 0px;
 }
