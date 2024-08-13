@@ -204,7 +204,9 @@
   font-size: 44px;
   line-height: 52px;
   position: relative;
-  margin: 100px 0 80px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
   color: #000000;
 }
 
@@ -213,7 +215,7 @@
   max-width: 385px;
 }
 
-.reservation__fieldset {
+.form__fieldset {
   display: flex;
   flex-direction: column;
   width: 385px;
